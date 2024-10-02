@@ -1,4 +1,4 @@
-path = 
+path = r"Screenshot 2024-09-21 091945.png"
 key = int(input("Enter key for encryption"))
 fin = open(path, 'rb')
 image = fin.read()
