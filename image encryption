@@ -11,6 +11,7 @@ def endec(path, key) :
     fin.write(image)
     fin.close()
 
+print("What\'s good")
 while True :
     inp = int(input("Select 1 for encryption, 2 for decryption and 3 to exit\n"))
     if inp == 1 :
@@ -30,6 +31,7 @@ while True :
         print("Decrypted successfully\n")
         exit
     elif inp == 3 :
+        print("Byee<3")
         break
     else :
         print("Incorrect input given. Try again or enter 3 to exit\n")
