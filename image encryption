@@ -1,1 +1,12 @@
-
+path = 
+key = int(input("Enter key for encryption"))
+fin = open(path, 'rb')
+image = fin.read()
+fin.close()
+image = bytearray(image)
+for index, values in enumerate(image) :
+    image[index] = value ^ key
+fin = open(path, 'wb')
+fin.write(image)
+fin.close()
+print("Encrypted")
